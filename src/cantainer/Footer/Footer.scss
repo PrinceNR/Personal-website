@@ -70,6 +70,10 @@
     width: 60%;
     flex-direction: column;
     margin: 1rem 2rem;
+
+    .error-msg{
+      color: red;
+    }
   
     div {
       width: 100%;

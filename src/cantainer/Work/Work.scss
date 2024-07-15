@@ -48,7 +48,8 @@
   align-items: center;
 
   .app__work-item {
-    width: 270px;
+    width: 300px;  
+    // ------ 
     flex-direction: column;
 
     margin: 2rem;
@@ -156,5 +157,16 @@
     border-radius: 10px;
     background-color: #fff;
     top: -25px;
+  }
+}
+
+.icon-div {
+  display: flex;
+  gap: 21px;
+  margin-top: 20px;
+
+  a{
+    font-size: 35px;
+    color: black;
   }
 }

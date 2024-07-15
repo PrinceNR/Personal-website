@@ -13,25 +13,31 @@ const Work = () => {
 
   useEffect(() => {
     const data = [{
-      image : images.about01,
-      name : "Medical web",
-      tags :["Front end", "React Js", "All"],
-      description : "UI/UX HTML||CSS",
-      title : "Medical web"
+      image : images.blogging,
+      name : "Bloging Page",
+      tags :["React Js","Front end", "All"],
+      description : "A Simple Bloging platform using React. Database connected to mongoDB",
+      title : "Bloging Page",
+      codeLink : "https://github.com/PrinceNR/Blog-Platform",
+      projectLink : "https://blogmon.netlify.app/"
     },
     {
-      image : images.about02,
-      name : "Medical web",
-      tags :["Front end", "React Js", "All"],
-      description : "UI/UX HTML||CSS",
-      title : "Medical web"
+      image : images.portfolio,
+      name : "my portfolio",
+      tags :["Front end","React Js", "All"],
+      description : "My responsive portfolio Using React",
+      title : "Portfolio",
+      codeLink : "https://github.com/PrinceNR/Personal-website",
+      projectLink : "https://princenr.netlify.app/"
     },
     {
-      image : images.about03,
+      image : images.medical,
       name : "Medical web",
       tags :["Front end", "React Js", "All"],
       description : "UI/UX HTML||CSS",
-      title : "Medical web"
+      title : "Medical web",
+      codeLink : "https://github.com/PrinceNR/Responsive_flex_project/tree/master",
+      projectLink : "https://princenr.github.io/Responsive_flex_project/"
     }]
     setWorks(data);
     setFilterWork(data);
@@ -86,7 +92,7 @@ const Work = () => {
             <div className="app__work-item app__flex" key={index}>
               <div className="app__work-img app__flex">
                 <img src={work.image} alt={work.name} />
-                {/* <motion.div
+                <motion.div
                   // whileHover={{ opacity: [1] }}
                   transition={{
                     duration: 0.25,
@@ -116,13 +122,38 @@ const Work = () => {
                       <AiFillGithub />
                     </motion.div>
                   </a>
-                </motion.div> */}
+                </motion.div>
               </div>
               <div className="app__work-content app__flex">
                 <h4 className="bold-text">{work.title}</h4>
                 <p className="p-text" style={{ marginTop: 10 }}>
                   {work.description}
                 </p>
+                <div className="app__flex icon-div">
+                <a href={work.projectLink} target="_blank" rel="norefferrer">
+                    <motion.div
+                      whileInView={{ scale: [0, 1] }}
+                      whileHover={{ scale: [1, 0.9] }}
+                      transition={{ duration: 0.25 }}
+                      className="app__flex"
+                    >
+                      <AiFillEye />
+                    </motion.div>
+                  </a>
+                  <a href={work.codeLink} target="_blank" rel="norefferrer">
+                    <motion.div
+                      whileInView={{ scale: [0, 1] }}
+                      whileHover={{ scale: [1, 0.9] }}
+                      transition={{ duration: 0.25 }}
+                      className="app__flex"
+                    >
+                      <AiFillGithub />
+                    </motion.div>
+                  </a>
+                </div>
+
+
+
                 <div className="app__work-tag app__flex">
                   <p className="p-text">{work.tags[0]}</p>
                 </div>

@@ -20,6 +20,15 @@ const Footer = () => {
 
   const handleSubmit = () => {
     setIsLoading(true);
+    let errorMessage = document.getElementById("errorMessage");
+
+    if(!name || !email || !message){
+
+       errorMessage.innerHTML = "All feilds are mandatory"
+      setIsLoading(false);
+      return false
+
+    }
 
     const contact = {
       _type : 'contact',
@@ -28,6 +37,7 @@ const Footer = () => {
       message : message
     }
    function create(contact) {
+    errorMessage.innerHTML ="";
     const data = contact;
     setIsLoading(false);
     setIsFormSubmitted(true)
@@ -60,7 +70,9 @@ const Footer = () => {
      
 {!isFormSubmitted ? 
       <div className="app__footer-form app__flex">
-        <div className="app__flex">
+
+          <h4 className='error-msg' id='errorMessage'></h4>
+         <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Name" name="name" value={name} onChange={handleChangeInput} />
           </div>
 

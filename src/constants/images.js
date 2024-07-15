@@ -32,6 +32,10 @@ import about04 from '../assets/about04.png';
 import fullstack from '../assets/full-stack.png';
 import frontend from '../assets/front-end.jpeg';
 import backend from '../assets/backend.jpg';
+import blogging from '../assets/blogging.png';
+import portfolio from '../assets/portfolio.png';
+import medical from '../assets/medical.png'
+
 
 
 import profile from '../assets/profile.png';
@@ -49,6 +53,9 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  medical,
+  portfolio,
+  blogging,
   slack,
   logolast,
   bootstrap,
