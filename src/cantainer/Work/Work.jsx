@@ -12,10 +12,20 @@ const Work = () => {
   const [filterWork, setFilterWork] = useState([]);
 
   useEffect(() => {
-    const data = [{
+    const data = [
+      {
+        image : images.emp,
+        name : "Employe Management system",
+        tags :["Node JS","Front end", "All"],
+        description : "Employe management system using node. Using JWT , Node mailer....",
+        title : "Employe Management",
+        codeLink : "https://github.com/PrinceNR/Employ-Management-Node",
+        projectLink : "https://github.com/PrinceNR/Employ-Management-Node"
+      },
+      {
       image : images.blogging,
       name : "Bloging Page",
-      tags :["React Js","Front end", "All"],
+      tags :["React Js","Front end","Node Js", "All"],
       description : "A Simple Bloging platform using React. Database connected to mongoDB",
       title : "Bloging Page",
       codeLink : "https://github.com/PrinceNR/Blog-Platform",

@@ -35,6 +35,7 @@ import backend from '../assets/backend.jpg';
 import blogging from '../assets/blogging.png';
 import portfolio from '../assets/portfolio.png';
 import medical from '../assets/medical.png'
+import emp from '../assets/emp.png'
 
 
 
@@ -53,6 +54,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  emp,
   medical,
   portfolio,
   blogging,

@@ -79,7 +79,6 @@ const Skills = () => {
 
         <motion.div className="app__skills-exp">
           {experience.map((experience, index) => {
-            console.log(experience);
             return (
               <motion.div
                 className="app__skills-exp-item"
