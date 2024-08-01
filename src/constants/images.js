@@ -23,7 +23,7 @@ import c from '../assets/c.png';
 import mongodb from '../assets/mongodb.png'
 import thunderclient from '../assets/thunderclient.png'
 import slack from '../assets/slack.png'
-
+import prince1 from '../assets/prince.png'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -54,6 +54,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  prince1,
   emp,
   medical,
   portfolio,

@@ -20,3 +20,5 @@ const AppWrapper = (Component, idName, classNames) =>
   };
 
 export default AppWrapper;
+
+
