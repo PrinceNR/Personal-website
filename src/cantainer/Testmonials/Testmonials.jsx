@@ -8,7 +8,7 @@ const Testmonials = () => {
       <div  className='testmonial-sml-div'>
         <h1 style={{marginBottom: "30px"}}><b>About Me</b></h1>
         <span >
-          Hii , I am<strong> Prince N R</strong>. I graduated in Electronics and communication Engineering but found my true passion in coding,  thanks to my love for mathamaics.  Now I am working as a mern stack developer at StackMod
+          Hii , I am<strong> Prince N R</strong>. Graduated in Electronics and communication Engineering but found my true passion in coding,  thanks to my love for mathamaics.  Now I am working as a mern stack developer at StackMod
            Innovations.  I enjoy creating web applications and am excited to work with you on new and interesting projects. 
           <br />
           <br />
