@@ -14,14 +14,15 @@ const Work = () => {
   useEffect(() => {
     const data = [
       {
-        image : images.emp,
-        name : "Employe Management system",
-        tags :["Node JS","Front end", "All"],
-        description : "Employe management system using node. Using JWT , Node mailer....",
-        title : "Employe Management",
-        codeLink : "https://github.com/PrinceNR/Employ-Management-Node",
-        projectLink : "https://github.com/PrinceNR/Employ-Management-Node"
+        image : images.medical,
+        name : "Medical web",
+        tags :["Front end", "React Js", "All"],
+        description : "UI/UX HTML||CSS",
+        title : "Medical web",
+        codeLink : "https://github.com/PrinceNR/Responsive_flex_project/tree/master",
+        projectLink : "https://princenr.github.io/Responsive_flex_project/"
       },
+      
       {
       image : images.blogging,
       name : "Bloging Page",
@@ -41,14 +42,15 @@ const Work = () => {
       projectLink : "https://princenr.netlify.app/"
     },
     {
-      image : images.medical,
-      name : "Medical web",
-      tags :["Front end", "React Js", "All"],
-      description : "UI/UX HTML||CSS",
-      title : "Medical web",
-      codeLink : "https://github.com/PrinceNR/Responsive_flex_project/tree/master",
-      projectLink : "https://princenr.github.io/Responsive_flex_project/"
-    }]
+      image : images.emp,
+      name : "Employe Management system",
+      tags :["Node JS","Front end", "All"],
+      description : "Employe management system using node. Using JWT , Node mailer....",
+      title : "Employe Management",
+      codeLink : "https://github.com/PrinceNR/Employ-Management-Node",
+      projectLink : "https://github.com/PrinceNR/Employ-Management-Node"
+    }
+   ]
     setWorks(data);
     setFilterWork(data);
   }, []);
