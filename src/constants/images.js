@@ -24,6 +24,8 @@ import mongodb from '../assets/mongodb.png'
 import thunderclient from '../assets/thunderclient.png'
 import slack from '../assets/slack.png'
 import prince1 from '../assets/prince.png'
+import princeNew from '../assets/1.png'
+import princeNew1 from '../assets/file.png'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -54,6 +56,8 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  princeNew1,
+  princeNew,
   prince1,
   emp,
   medical,

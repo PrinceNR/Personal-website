@@ -33,8 +33,6 @@ const Skills = () => {
       { icon : images.redux, name : "REDUX JS" },
       { icon : images.bootstrap, name : "Bootstrap" },
       
-      { icon : images.figma, name : "FIGMA" },
-      { icon : images.slack, name : "Slack" },
     
       { icon : images.git, name : "GIT"},
       { icon : images.github, name : "GIT HUB"},
